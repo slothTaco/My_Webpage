@@ -1,27 +1,59 @@
-body {
-    margin: 0;
-    font-family: serif;
-}
-
-
-.header {
-    background: #1F2937;
-     color: white;
-     font-size: 10px;
-     padding: 5px;
-
+.header_container {
+    background-color: #1F2937;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    flex-direction: column;
+    align-content: space-between;
 }
 
-ul {
-    list-style-type: none;
+
+button {
     display: flex;
-    gap: 16px;
-    font-size: 16px
+    flex-shrink: 3;
 }
 
 
 
+
+
+
+
+
+.me {
+width: 400px;
+height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Google {
+    width: 100px;
+    height: auto;
+}
+
+.CISCO1 {
+    width: 100px;
+    height: auto;
+}
+
+.CISCO2 {
+    width: 100px;
+    height: auto;
+
+}
+
+.OU {
+    width: 100px;
+    height: auto;
+}
