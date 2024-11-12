@@ -12,19 +12,29 @@ button {
 }
 
 
-
-
-
-
-
-
 .me {
 width: 400px;
 height: auto;
 }
 
 
+.quote {
+    font-style: light italic;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
 
+
+}
+
+
+.footer {
+
+    background-color: #3882F6;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
 
 
 
