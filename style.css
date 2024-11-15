@@ -1,113 +1,161 @@
-.container {
-   
-    
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.container > div {
-    flex: 1;
-}
-
-.header_container {
-    background-color: #1F2937;
-    display: flex;
-    
-    
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    
-}
-
-.header_info {
-    display: flex;
-    
-}
-button {
-    display: flex;
-    
-}
-
-.sign_up, button {
-    background-color: #3882F6; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border: 4px solid white;
-    border-radius: 8px;
-
-}
-
-.me {
-width: 300px;
-height: auto;
-display: flex;
-flex: 0 0 auto;
-
-}
-
-.info_container {
-    display: flex;
-    flex: 1;
-    
-}
-
-
-.quote {
-    display: flex;
-    font-style: light italic;
-    background-color: #E5E7EB;
-    font-size: 36px;
-    color: #1F2937;
-
-
-}
-
-
-.footer {
-   display: flex;
-  
+body {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background-color: #3882F6;
-    font-size: 36px;
-    color: #1F2937;
+    font-family: roboto, serif;
+    flex-wrap: wrap;
+}
+
+header  {
+    background-color: #1f2937;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+header ul {
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.intro {
+    background-color: #1f2937;
+    padding: 50px 200px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardInfo {
+   
+    flex-basis: 400px;
+}
+
+.cardImg {
+    flex-basis: 400px;
+    background-color: rgb(165, 164, 164);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardInfo h2 {
+    font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
 }
 
-
-
-
-.Google {
-    width: 100px;
-    height: auto;
-    border: 4px solid #3882F6;
-    border-radius: 8px;
+.cardInfo p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
-.CISCO1 {
-    width: 100px;
-    height: auto;
-    border: 4px solid #3882F6;
-    border-radius: 8px;
-}
-
-.CISCO2 {
-    width: 100px;
-    height: auto;
-    border: 4px solid #3882F6;
-    border-radius: 8px;
+.cardInfo button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
 
 }
 
-.OU {
-    width: 100px;
-    height: auto;
-    border: 4px solid #3882F6;
-    border-radius: 8px;
+.middleCard {
+    padding: 25px 200px 100px;
+}
+
+.middleCard h2 {
+    text-align: center;
+}
+
+.block {
+border: 3px solid #3882f6;
+border-radius: 10px;
+width: 100px;
+height: 100px;
+}
+
+.cards div {
+    width: 125px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cards {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quoteCard {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300p;
+    color: #1F2937;
+}
+
+.quoteCredit {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: end;
+    padding-top: 10;
+    padding-right: 50px;
+}
+
+.promptCard {
+    margin: 80px 200px;
+    padding: 48px 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9fa98;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.promptCard button {
+    width: 120px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    border-radius: 10px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.promptMessage {
+    color: #e5e7eb;
+    font-size: 16px;
+
+}
+
+.promptCard p {
+    margin: 5px 0px;
+
+}
+
+footer {
+    padding: 20px 0px;
+    background-color: #1f2937;
+    font-size: 12px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
