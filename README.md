@@ -1,3 +1,1 @@
-# My_Webpage
-
-createing my webpage, this will dispplay my details, an about me, my projects and cv
+# My_Webpagefirst attempt at a webpage using flexbox, was originally going to be a website for me but bit off more then i could chew. insted juts built a webpage to help me work through understanding flexbox which i am planning on furthering my knowledge on on my next website project 
